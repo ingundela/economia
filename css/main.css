@@ -215,13 +215,18 @@ p{
 .aboutus h3{
 	color: #808080;
 	margin-bottom: 20px;
-	font-size: 2em;
+	font-size: 2rem;
 }
 .aboutus .btn{
 	font-size: 1.4rem;
 	color: #808080;
 	font-weight: 400;
 	text-transform: uppercase;
+}
+@media screen and (max-width: 768px){
+	.aboutus .btn{
+		font-size: 1rem;
+	}
 }
 
 /*--Proprietarios--*/
