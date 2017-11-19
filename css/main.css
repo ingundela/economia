@@ -58,7 +58,6 @@ p{
     z-index: 2;
 }
 .hero-caption{
-	font-weight: 500;
 	max-width: 80rem;
 	margin: 0 auto;
 	text-align: center;
@@ -66,23 +65,23 @@ p{
 .hero-caption h1{
 	text-transform: uppercase;
 	position: relative;
+	font-weight: 800;
 	z-index: 3;
 	color: #fff;
-	font-size: 4rem;
-	font-weight: 900;
+	font-size: 3rem;
 	letter-spacing: 3px;
 }
 @media screen and (max-width: 768px){
 	.hero-caption h1{
-		font-size: 1.4rem;
+		font-size: 1.7rem;
 	}
-	.hero-caption h3{
-		font-size: 1.2rem;
+	.hero-caption h4{
+		font-size: 1px;
 	}
 }
 	
 	
-.hero-caption h3{
+.hero-caption h4{
 	font-size: 2rem;
 	color: #cccccc;
 	font-weight: 500;
@@ -118,7 +117,7 @@ p{
 
 @media screen and (max-width: 768px){
 	#hero .first{
-		font-size: 1rem;
+		font-size: 1.3rem;
 	}
 }
 /*--serviços--*/
@@ -134,20 +133,14 @@ p{
 }
 @media screen and (max-width: 768px){
 	.top h2{
-		font-size: 1.5rem;
+		font-size: 1.7rem;
 	}
 	.top h4{
-		font-size: 1.2rem;
+		font-size: 1.3rem;
 		margin-bottom: 20px;
 	}
 	.service {
 		padding: 40px 0;
-	}
-	p{
-		font-size: 1.2rem;
-	}
-	li{
-		font-size: 1.2rem;
 	}
 
 }
@@ -215,18 +208,13 @@ p{
 .aboutus h3{
 	color: #808080;
 	margin-bottom: 20px;
-	font-size: 2rem;
+	font-size: 2em;
 }
 .aboutus .btn{
 	font-size: 1.4rem;
 	color: #808080;
 	font-weight: 400;
 	text-transform: uppercase;
-}
-@media screen and (max-width: 768px){
-	.aboutus .btn{
-		font-size: 1rem;
-	}
 }
 
 /*--Proprietarios--*/
@@ -248,11 +236,14 @@ p{
 	font-size: 1.7rem;
 	font-weight: 700;
 }
-
+.proprietarios a{
+	margin-top: 10px;
+}
 .proprietarios h5{
 	font-size: 1.5rem;
 	font-weight: 400;
 	color: #8c8c8c;
+	margin: 10px 0;
 }
 /*--Footer --*/
 
@@ -306,12 +297,15 @@ p{
 }
 @media screen and (max-width: 768px){
 	.footer .social li i{
-		font-size: 1rem;
+		font-size: 1.3rem;
+		margin-top: 10px;
 	}
 	.rights p{
 	font-size: 1rem;
 }
 }
+
+
 
 
 
