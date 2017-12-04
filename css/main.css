@@ -6,20 +6,12 @@ body{
 	overflow-x: hidden;
 	text-rendering: optimizeLegibility !important;
 	-webkit-font-smoothing: antialiased !important;
-	color: #6c6f73;
+	color: #6c6f73 !important;
 }
 p{
 	display: block;
-	font-size: 1.4rem;
-}
-.blockquote{
-	font-size: 1.6rem;
-	color: #333;
-	border: none;
-	padding: 0;
-}
-.blockquote-footer{
-	margin: 1rem 0 0;
+	font-size: 1rem;
+	line-height: 1.7;
 }
 /*--nabigation --*/
 .navbar{
@@ -28,8 +20,7 @@ p{
 }
 
 .nav-item{
-	font-size: 1.4rem;
-	text-transform: uppercase;
+	font-size: 1rem;
 }
 .nav-item a:hover{
 	-webkit-transition: all .5s ease;
@@ -61,28 +52,28 @@ p{
 	max-width: 80rem;
 	margin: 0 auto;
 	text-align: center;
+	margin-top: 100px;
 }
 .hero-caption h1{
 	text-transform: uppercase;
 	position: relative;
-	font-weight: 800;
+	font-weight: 600;
 	z-index: 3;
 	color: #fff;
-	font-size: 3rem;
+	font-size: 1.5rem;
 	letter-spacing: 3px;
 }
 @media screen and (max-width: 768px){
 	.hero-caption h1{
-		font-size: 1.7rem;
+		font-size: 1.2rem;
 	}
 	.hero-caption h4{
-		font-size: 1px;
+		font-size: 0.7px;
 	}
 }
 	
-	
 .hero-caption h4{
-	font-size: 2rem;
+	font-size: 1.2rem;
 	color: #f2f2f2;
 	font-weight: 500;
 	letter-spacing: 1px;
@@ -92,7 +83,7 @@ p{
 }
 
 #hero .first{
-	font-size: 1.7rem;
+	font-size: 1rem;
 	background: #b2b200;
 	border: 1px solid #ffff00;
 	border: none;
@@ -117,7 +108,7 @@ p{
 
 @media screen and (max-width: 768px){
 	#hero .first{
-		font-size: 1.3rem;
+		font-size: 0.7rem;
 	}
 }
 /*--serviços--*/
@@ -126,17 +117,17 @@ p{
 }
 
 .top h2{
-	font-size: 2.5rem;
-	font-weight: 700;
+	font-size: 1.5rem;
+	font-weight: 600;
 	text-transform: uppercase;
 	color: #404040;
 }
 @media screen and (max-width: 768px){
 	.top h2{
-		font-size: 1.7rem;
+		font-size: 1.2rem;
 	}
 	.top h4{
-		font-size: 1.3rem;
+		font-size: 1rem;
 		margin-bottom: 20px;
 	}
 	.service {
@@ -157,6 +148,7 @@ p{
  }
 .top h4{
 	font-weight: 700;
+	font-size: 0.8rem;
 	text-transform: uppercase;
 	color: #8c8c8c;
 	margin-top: 20px;
@@ -166,11 +158,15 @@ p{
 }
 .service .feature .one{
 	margin-right: 20px;
-	font-size: 6rem;
+	font-size: 2.8rem;
 	color:#666600; 
 }
-.service .feature li{
+.service .feature h3{
 	font-size: 1.4rem;
+	font-weight: 500;
+}
+.service .feature li{
+	font-size: 1rem;
 }
 
 .service .feature i{
@@ -190,10 +186,10 @@ p{
 /*--Empresa--*/
 .aboutus{
 	padding-bottom: 50px;
-	color: #808080;
+	color: #fff;
 }
 .feature-content{
-	background-color: #f2f2f2;
+	background-color: #000;
 	margin-top: 30px;
 	padding: 20px 0;
 }
@@ -206,17 +202,19 @@ p{
 	margin: 50px 0;
 }
 .aboutus h3{
-	color: #808080;
+	color: #fff;
 	margin-bottom: 20px;
 	font-size: 2em;
 }
 .aboutus .btn{
-	font-size: 1.4rem;
-	color: #808080;
-	font-weight: 400;
+	font-size: 1rem;
+	color: #fff;
+	font-weight: 600;
 	text-transform: uppercase;
 }
-
+.aboutus .imagem{
+	margin-top: 5rem;
+}
 /*--Proprietarios--*/
 .proprietarios{
 	padding: 30px 0;
@@ -233,16 +231,19 @@ p{
 	padding: 50px 0;
 }
 .proprietarios h3{
-	font-size: 1.7rem;
+	font-size: 1.2rem;
 	font-weight: 700;
 }
 .proprietarios a{
 	margin-top: 10px;
 }
+.box .second{
+	font-size: 0.8rem;
+}
 .proprietarios h5{
-	font-size: 1.5rem;
-	font-weight: 400;
-	color: #8c8c8c;
+	font-size: 1rem;
+	font-weight: 600;
+	color: #000;
 	margin: 10px 0;
 }
 /*--Footer --*/
@@ -254,9 +255,10 @@ p{
 }
 .footer h3{
 	font-weight: 500;
+	font-size: 1.3rem;
 }
 .footer li{
-	font-size: 1.4rem;
+	font-size: 1rem;
 }
 
 .footer i{
@@ -264,15 +266,17 @@ p{
 }
 .footer .social li{
 	display: inline-block;
-	margin-right: 20px;
+	margin-right:10px;
 }
 
 .footer .social li i{
-	font-size: 1.4rem;
+	font-size: 1rem;
 	background: #fff;
 	border-radius: 50%;
 	border: 1px solid #fff;
-	padding: 15px;
+	padding: 10px;
+	width: 35px;
+	height: 35px;
 	color: #000;
 }
 .footer .social li i:hover{
@@ -289,7 +293,7 @@ p{
 	overflow: hidden;
 }
 .rights p{
-	font-size: 1.3rem;
+	font-size: 0.7rem;
 }
 .rights .last{
 	color: #fff;
@@ -304,45 +308,3 @@ p{
 	font-size: 1rem;
 }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
