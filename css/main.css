@@ -65,7 +65,7 @@ p{
 }
 @media screen and (max-width: 768px){
 	.hero-caption h1{
-		font-size: 1.2rem;
+		font-size: 1rem;
 	}
 	.hero-caption h3{
 		font-size: 0.7px;
