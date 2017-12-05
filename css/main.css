@@ -74,7 +74,7 @@ p{
 	
 .hero-caption h4{
 	font-size: 1.2rem;
-	color: #f2f2f2;
+	color: #fff;
 	font-weight: 500;
 	letter-spacing: 1px;
 	z-index: 3;
@@ -204,7 +204,7 @@ p{
 .aboutus h3{
 	color: #fff;
 	margin-bottom: 20px;
-	font-size: 2em;
+	font-size: 2rem;
 }
 .img-fluid {
     max-width: 100%;
