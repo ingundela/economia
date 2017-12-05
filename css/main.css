@@ -206,14 +206,16 @@ p{
 	margin-bottom: 20px;
 	font-size: 2em;
 }
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    margin-top: 4rem;
+}
 .aboutus .btn{
 	font-size: 1rem;
 	color: #fff;
 	font-weight: 600;
 	text-transform: uppercase;
-}
-.aboutus .businessimg{
-	margin-top: 10rem;
 }
 /*--Proprietarios--*/
 .proprietarios{
